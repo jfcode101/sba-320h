@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  .cls-wrapper {
+    text-align: center;
+    margin: 20px;
+
+    /* image */
+    img {
+      width: 375px;
+      height: 375px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid #aaaaaa;
+      box-shadow: -2px 2px 24px -2px #333;
+      padding: 8px;
+      /* margin: 8px; */
+    }
+  }
+
+  .slick-slide {
+    padding: 2.5rem;
+  }
+}

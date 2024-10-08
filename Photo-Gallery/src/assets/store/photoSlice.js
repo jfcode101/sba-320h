@@ -2,9 +2,9 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // async thunk to fetch photos from Unsplash API
-export const fetchPhotos = createAsyncThunk("photos/fetchPhotos", async () => {
+const fetchPhotos = createAsyncThunk("photos/fetchPhotos", async () => {
   const response = await axios.get(
-    "https://api.unsplash.com/photos/random?count=10&client_id=SP5EU6iJK5BbeNMVb0pUBrEE383PScLo8IQkiGwhrfw"
+    "https://api.unsplash.com/photos/random?count=25&client_id=SP5EU6iJK5BbeNMVb0pUBrEE383PScLo8IQkiGwhrfw"
   );
   return response.data;
 });
