@@ -1,4 +1,4 @@
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
       <h1>Gallery Application</h1>
       <p>This is a gallery application</p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
