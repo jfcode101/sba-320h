@@ -18,7 +18,7 @@ const photosSlice = createSlice({
     error: null,
   },
   reducers: {
-    // you can add more reducers here if needed
+    // might add more reducers here if needed
   },
   extraReducers: (builder) => {
     builder
